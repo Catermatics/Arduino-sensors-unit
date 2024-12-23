@@ -1,11 +1,16 @@
-#Test Sync
+#Test Sync 123
 # pip install pymata4
 # pip install pyserial
-
 
 # Import the necessary libraries
 import time
 from pymata4 import pymata4
+import tkinter
+Top = tkinter.Tk()
+Top.title("Distance Sensor test")
+
+
+
 
 # Define the pins
 triggerPin = 10
